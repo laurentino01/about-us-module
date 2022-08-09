@@ -1,0 +1,44 @@
+.main-container{
+    height: 130vh;
+    width: 100vw;
+}
+
+.above-part{
+    display: flex;
+    height: 50%;
+    flex-wrap: wrap;
+    
+    .descriptions-above-part{
+        background-color: $background-above-color;
+        color: $primary-color;
+        width: max(300px, 35%);
+        padding: 50px max(10px, 2vw);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-grow: 1;
+        h3{
+            @include subtitle-config($subtitle-font-size, $subtitle-letter-space, $subtitle-font-weight, $subtitle-text-transform);
+            font-size: max($subtitle-font-size, 1vw);
+        }
+        h1{
+            
+            font-weight: bolder;
+            line-height: 1;
+            margin-top: 20px;
+            font-size: max(4.8rem, 4vw);
+            
+        }
+    }
+        
+    .img-illustration{
+        background-image: url("../../../imgs/ft\ 1.jpeg");
+        background-position: center;
+        width: max(500px, 65%);
+        background-size:cover;
+        background-repeat: no-repeat;
+        height: max(500px, 100%);
+        flex-grow: 1;
+    } 
+    
+}

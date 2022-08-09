@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.main-container {
+  height: 130vh;
+  width: 100vw;
+}
+
+.above-part {
+  display: flex;
+  height: 50%;
+  flex-wrap: wrap;
+}
+.above-part .descriptions-above-part {
+  background-color: #4ac6d2;
+  color: #fff;
+  width: max(300px, 35%);
+  padding: 50px max(10px, 2vw);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 1;
+}
+.above-part .descriptions-above-part h3 {
+  font-size: 2.8rem;
+  letter-spacing: 2px;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: max(2.8rem, 1vw);
+}
+.above-part .descriptions-above-part h1 {
+  font-weight: bolder;
+  line-height: 1;
+  margin-top: 20px;
+  font-size: max(4.8rem, 4vw);
+}
+.above-part .img-illustration {
+  background-image: url("../../../imgs/ft 1.jpeg");
+  background-position: center;
+  width: max(500px, 65%);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: max(500px, 100%);
+  flex-grow: 1;
+}
+
+.below-part {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.below-part .img-illustration-below {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 25%;
+}
+.below-part .pht-one {
+  background-image: url("../../../imgs/ft 2.jpeg");
+}
+.below-part .pht-two {
+  background-image: url("../../../imgs/ft 3.jpeg");
+}
+.below-part .pht-three {
+  background-image: url("../../../imgs/ft 4.jpeg");
+}
+.below-part .descriptions-below-part {
+  padding: 50px;
+  color: #fff;
+  background-color: #9E15BF;
+  height: 100%;
+  width: 25%;
+}
+.below-part .descriptions-below-part h3 {
+  margin-top: 20px;
+  font-size: 2.8rem;
+  letter-spacing: 2px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.below-part .descriptions-below-part h3:first-child {
+  margin-top: 0;
+}
+.below-part .descriptions-below-part p {
+  font-size: 2rem;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

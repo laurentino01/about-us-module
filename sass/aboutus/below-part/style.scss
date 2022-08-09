@@ -1,0 +1,47 @@
+.below-part{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .img-illustration-below{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        width: 25%;
+        
+    }
+    .pht-one{
+        background-image: url("../../../imgs/ft\ 2.jpeg");   
+    }
+    .pht-two{
+        background-image: url("../../../imgs/ft\ 3.jpeg")
+    }
+    .pht-three{
+        background-image: url("../../../imgs/ft\ 4.jpeg")
+    }
+    .descriptions-below-part{
+        padding: 50px;
+        color: $primary-color;
+        background-color: $background-below-color;
+        height: 100%;
+        width: 25%;
+        
+        h3{
+            margin-top: 20px;
+            @include subtitle-config($subtitle-font-size, $subtitle-letter-space, $subtitle-font-weight, $subtitle-text-transform) 
+        }
+        
+        h3:first-child{
+            margin-top: 0;
+        }
+        p{
+            font-size: 2rem;
+            line-height: 1.5;
+            letter-spacing: 1px;
+            margin-top: 20px;
+        }
+    }
+}
